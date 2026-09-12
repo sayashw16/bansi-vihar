@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/><meta content="#183C32" name="theme-color"/><title>Bansi Vihar Restaurant | Patna Since 1994</title><meta content="Bansi Vihar Restaurant in Fraser Road, Patna — vegetarian South Indian and Chinese favourites, serving since 1994." name="description"/><meta content="Bansi Vihar Restaurant — A Taste That Became a Tradition" property="og:title"/><meta content="Vegetarian favourites in Patna since 1994." property="og:description"/><meta content="restaurant" property="og:type"/><link href="https://bansivihar.com/" rel="canonical"/><link as="image" href="assets/bansi-vihar-restaurant-exterior.jpg" rel="preload"/><style id="bansi-vihar-styles">
+
+:root{--ivory:#F7F3EA;--paper:#FFFFFF;--sand:#E9E0D0;--ink:#211E1A;--taupe:#746C60;--green:#183C32;--green2:#102D26;--brass:#B08A4A;--brass-light:#D1B477;--line:rgba(33,30,26,.14);--shadow:0 24px 70px rgba(33,30,26,.13);--radius:22px;--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:'DM Sans',Inter,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--ink);font-family:var(--sans);line-height:1.65;overflow-x:hidden}body.menu-open{overflow:hidden}a{color:inherit;text-decoration:none}button{font:inherit}img{display:block;max-width:100%}.container{width:min(1180px,calc(100% - 40px));margin:auto}.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass);font-weight:700}.serif{font-family:var(--serif)}.display{font-family:var(--serif);font-weight:500;font-size:clamp(3.5rem,8vw,7.6rem);line-height:.88;letter-spacing:-.045em}.section{padding:110px 0}.section.dark{background:var(--green);color:var(--paper)}.section.paper{background:var(--paper)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:48px}.section-head h2{font-family:var(--serif);font-size:clamp(2.7rem,6vw,5.2rem);line-height:.9;font-weight:500;letter-spacing:-.035em;margin:10px 0 0}.section-head p{max-width:420px;color:rgba(32,35,31,.65);margin:0}.dark .section-head p{color:rgba(251,249,244,.68)}
+.nav{position:fixed;z-index:90;top:0;left:0;right:0;padding:18px 0;transition:.35s}.nav.scrolled{padding:10px 0}.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border:1px solid transparent;transition:.35s}.nav.scrolled .nav-inner{background:rgba(244,240,231,.78);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-color:rgba(32,35,31,.12);box-shadow:0 10px 40px rgba(0,0,0,.06);border-radius:999px}.brand{font-size:13px;font-weight:800;letter-spacing:.16em}.nav-links{display:flex;gap:28px;font-size:12px;text-transform:uppercase;letter-spacing:.12em}.nav-links a{opacity:.72;transition:.25s}.nav-links a:hover,.nav-links a.active{opacity:1;color:var(--green)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--green);background:var(--green);color:var(--paper);padding:12px 17px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s,background .25s}.btn::after{content:"";position:absolute;inset:-60% 55% -60% -40%;background:rgba(255,255,255,.16);transform:rotate(20deg) translateX(-100%);transition:.55s}.btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(23,59,50,.18)}.btn:hover::after{transform:rotate(20deg) translateX(160%)}.btn.alt{background:transparent;color:var(--green)}.btn.light{border-color:rgba(251,249,244,.35);background:rgba(251,249,244,.08);color:var(--paper);backdrop-filter:blur(10px)}.btn.small{padding:9px 13px}.menu-toggle{display:none;align-items:center;justify-content:center;flex-direction:column;gap:5px;width:48px;height:48px;min-width:48px;border:1px solid rgba(33,30,26,.14);border-radius:50%;background:rgba(255,255,255,.82);color:var(--green);cursor:pointer;touch-action:manipulation;pointer-events:auto;position:relative;z-index:120;padding:0}.menu-toggle span{display:block;width:19px;height:1.5px;background:currentColor;border-radius:2px;transition:transform .28s,opacity .2s}.menu-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}.menu-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}.menu-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.mobile-menu{position:fixed;z-index:100;inset:0;background:var(--green);color:var(--paper);display:grid;align-content:center;padding:30px;transform:translateY(-100%);transition:.5s cubic-bezier(.8,0,.2,1)}.mobile-menu.open{transform:translateY(0)}.mobile-menu a{font-family:var(--serif);font-size:clamp(2.7rem,12vw,4.4rem);line-height:1;border-bottom:1px solid rgba(255,255,255,.12);padding:14px 0}.mobile-menu .eyebrow{margin-bottom:22px}.mobile-close{position:absolute;right:18px;top:18px;width:48px;height:48px;border:1px solid rgba(255,255,255,.18);border-radius:50%;background:rgba(255,255,255,.06);color:var(--paper);font-size:28px;line-height:1;cursor:pointer;touch-action:manipulation;z-index:110}
+.hero{min-height:100svh;position:relative;display:grid;align-items:end;padding:150px 0 70px;background:var(--green);color:var(--paper);overflow:hidden}.hero-media{position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(12,27,22,.62) 0%,rgba(12,27,22,.30) 48%,rgba(12,27,22,.14) 100%),url('assets/bansi-vihar-restaurant-exterior.jpg');background-size:cover;background-position:center}.hero-media::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 75% 30%,rgba(202,173,119,.18),transparent 28%)}.hero-content{position:relative;z-index:2;max-width:850px}.hero h1{margin:18px 0 26px}.hero p{max-width:560px;color:rgba(251,249,244,.76);font-size:17px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.scroll-cue{position:absolute;right:35px;bottom:35px;z-index:2;display:flex;align-items:center;gap:12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;opacity:.7}.scroll-cue span{width:44px;height:1px;background:currentColor}
+.legacy{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:center}.legacy-copy{max-width:620px}.legacy-copy h2{font-family:var(--serif);font-size:clamp(3rem,6vw,5.6rem);line-height:.9;font-weight:500;margin:14px 0 24px}.legacy-copy p{font-size:17px;color:rgba(32,35,31,.67)}.timeline{border-top:1px solid var(--line);margin-top:38px;padding-top:24px;display:flex;align-items:end;justify-content:space-between}.timeline strong{font-family:var(--serif);font-size:clamp(3rem,7vw,6rem);font-weight:500;color:var(--green)}.timeline small{text-transform:uppercase;letter-spacing:.16em;font-size:10px;color:rgba(32,35,31,.55)}
+.dish-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.dish-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:.35s;box-shadow:0 8px 30px rgba(32,35,31,.03)}.dish-card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}.dish-img{aspect-ratio:4/5;overflow:hidden;background:var(--sand)}.dish-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.dish-card:hover img{transform:scale(1.055)}.dish-body{padding:20px}.dish-body h3{font-family:var(--serif);font-size:27px;line-height:1;margin:0 0 10px;font-weight:600}.dish-body p{font-size:13px;color:rgba(32,35,31,.6);margin:0 0 15px}.arrow{font-size:20px;color:var(--brass)}
+.experience{display:grid;grid-template-columns:1fr 1fr;min-height:650px}.experience-media{min-height:520px;background:url('https://bansivihar.com/assets/img/ButterPaperMasalaDosa.jpg') center/cover, url('assets/hero-dosa-premium.png') center/cover}.experience-copy{display:flex;align-items:center;padding:70px clamp(30px,7vw,100px);background:var(--paper)}.experience-copy h2{font-family:var(--serif);font-size:clamp(3rem,6vw,5.5rem);line-height:.9;font-weight:500;margin:14px 0 22px}.feature-list{margin-top:35px;border-top:1px solid var(--line)}.feature{display:flex;gap:18px;padding:17px 0;border-bottom:1px solid var(--line);font-size:12px;letter-spacing:.13em;font-weight:700}.feature b{color:var(--brass)}
+.menu-preview{display:grid;grid-template-columns:.7fr 1.3fr;gap:80px}.menu-tabs{display:flex;gap:8px;flex-wrap:wrap;align-content:start}.chip{border:1px solid var(--line);background:transparent;padding:10px 13px;min-height:44px;border-radius:999px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;touch-action:manipulation;white-space:nowrap;transition:background-color .25s ease,color .25s ease,border-color .25s ease,transform .25s ease}.chip:active{transform:scale(.98)}.chip.active,.chip:hover{background:var(--green);color:var(--paper);border-color:var(--green)}.menu-list{border-top:1px solid var(--line)}.menu-row{display:grid;grid-template-columns:78px 1fr auto;gap:18px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)}.menu-thumb{width:78px;height:78px;border-radius:14px;object-fit:cover}.menu-row h3{font-family:var(--serif);font-size:24px;line-height:1;margin:0 0 7px}.menu-row p{font-size:12px;color:rgba(32,35,31,.57);margin:0}.price{font-weight:700;color:var(--green);white-space:nowrap}
+.story-band{position:relative;overflow:hidden}.story-band::before{content:"1994";position:absolute;font-family:var(--serif);font-size:clamp(12rem,35vw,36rem);line-height:.6;right:-40px;top:120px;color:rgba(255,255,255,.035)}.story-inner{position:relative;z-index:1;display:grid;grid-template-columns:.7fr 1.3fr;gap:70px}.story-year{font-family:var(--serif);font-size:clamp(8rem,20vw,18rem);line-height:.7;color:var(--brass)}.story-copy h2{font-family:var(--serif);font-size:clamp(3rem,6vw,5.5rem);line-height:.9;font-weight:500;margin:0 0 24px}.story-copy p{max-width:650px;color:rgba(251,249,244,.7);font-size:17px}.story-steps{margin-top:50px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.story-step{border-top:1px solid rgba(255,255,255,.18);padding-top:16px}.story-step b{display:block;color:var(--brass);font-family:var(--serif);font-size:26px}.story-step span{font-size:12px;color:rgba(251,249,244,.6)}
+.review{max-width:820px;margin:auto;text-align:center}.quote{font-family:var(--serif);font-size:clamp(2.4rem,5vw,4.5rem);line-height:1.03;margin:16px 0 22px}.review-note{font-size:13px;color:rgba(32,35,31,.6)}
+.gallery-grid{columns:3 280px;column-gap:16px}.gallery-item{break-inside:avoid;margin:0 0 16px;position:relative;border-radius:18px;overflow:hidden;cursor:pointer;background:var(--sand)}.gallery-item img{width:100%;height:auto;transition:.55s}.gallery-item:hover img{transform:scale(1.04)}.gallery-caption{position:absolute;left:14px;bottom:14px;padding:7px 10px;border-radius:999px;background:rgba(251,249,244,.82);backdrop-filter:blur(10px);font-size:10px;letter-spacing:.13em;text-transform:uppercase}.lightbox{position:fixed;inset:0;z-index:100;background:rgba(8,20,16,.94);display:none;align-items:center;justify-content:center;padding:25px}.lightbox.open{display:flex}.lightbox img{max-height:88svh;max-width:92vw;object-fit:contain;border-radius:12px}.lightbox button{position:absolute;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:white;width:46px;height:46px;border-radius:50%;cursor:pointer}.lb-close{right:22px;top:22px}.lb-prev{left:22px;top:50%;transform:translateY(-50%)}.lb-next{right:22px;top:50%;transform:translateY(-50%)}
+.visit-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:25px}.visit-card{background:var(--green);color:var(--paper);border-radius:var(--radius);padding:45px}.visit-card h2{font-family:var(--serif);font-size:clamp(3rem,6vw,5.4rem);line-height:.9;font-weight:500;margin:12px 0 26px}.contact-block{border-top:1px solid rgba(255,255,255,.15);padding-top:18px;margin-top:28px}.contact-row{display:grid;grid-template-columns:100px 1fr;gap:15px;padding:10px 0;font-size:13px}.contact-row b{color:var(--brass);font-size:10px;letter-spacing:.16em;text-transform:uppercase}.map-wrap{min-height:520px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:var(--sand)}.map-wrap iframe{width:100%;height:100%;min-height:520px;border:0;filter:saturate(.75) contrast(.95)}.faq{margin-top:80px}.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 45px}.faq-item{border-top:1px solid var(--line);padding:20px 0}.faq-item summary{cursor:pointer;font-family:var(--serif);font-size:24px;list-style:none}.faq-item summary::-webkit-details-marker{display:none}.faq-item p{font-size:13px;color:rgba(32,35,31,.65);max-width:550px}
+.page-hero{padding:180px 0 90px;background:var(--green);color:var(--paper)}.page-hero h1{font-family:var(--serif);font-size:clamp(4rem,10vw,8rem);line-height:.82;font-weight:500;margin:14px 0}.page-hero p{max-width:620px;color:rgba(251,249,244,.68);font-size:16px}.filterbar{position:sticky;top:76px;z-index:10;background:rgba(244,240,231,.85);backdrop-filter:blur(16px);padding:12px 0;border-bottom:1px solid var(--line)}.filter-inner{position:relative;z-index:11;touch-action:pan-x;overscroll-behavior-x:contain}.filter-inner .chip{min-height:44px;white-space:nowrap;touch-action:manipulation;cursor:pointer;-webkit-tap-highlight-color:transparent}.menu-filter-empty{grid-column:1/-1;padding:44px 24px;text-align:center;border:1px solid var(--line);border-radius:20px;background:var(--paper);color:var(--taupe)}.menu-filter-empty strong{display:block;font-family:var(--serif);font-size:30px;font-weight:500;color:var(--ink);margin-bottom:6px}.filter-inner{display:flex;gap:8px;overflow:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}.filter-inner::-webkit-scrollbar{display:none}.menu-page-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.menu-page-grid.filtering{will-change:opacity}.menu-page-grid .menu-card.filter-out{opacity:0;transform:translateY(-6px);transition:opacity .18s ease,transform .18s ease}.menu-page-grid .menu-card.filter-in{animation:menuFilterIn .36s cubic-bezier(.22,1,.36,1) both}@keyframes menuFilterIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}.menu-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;overflow:hidden}.menu-card .dish-img{aspect-ratio:4/3;min-height:220px}
+.menu-card .dish-img img{width:100%;height:100%;display:block;object-fit:cover;min-height:220px}.menu-card .dish-body{padding:20px}.menu-meta{display:flex;justify-content:space-between;gap:12px;align-items:start}.category-label{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);font-weight:700;margin-bottom:8px}
+.footer{background:#102b24;color:var(--paper);padding:65px 0 25px}.footer-grid{display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:40px}.footer-brand{font-family:var(--serif);font-size:44px;line-height:.9}.footer p{color:rgba(251,249,244,.55);font-size:13px}.footer h4{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass)}.footer a{display:block;font-size:13px;margin:8px 0;color:rgba(251,249,244,.75)}.footer-bottom{margin-top:50px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);font-size:10px;color:rgba(251,249,244,.4);display:flex;justify-content:space-between;gap:15px}
+.reveal{opacity:1;transform:none}.js-ready .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s,transform .7s}.js-ready .reveal.visible{opacity:1;transform:none}.hide{display:none!important}.menu-page-grid .menu-card.filter-in{animation:menuFilterIn .38s cubic-bezier(.22,1,.36,1) both}.menu-page-grid .menu-card.filter-out{opacity:0;transform:translateY(-6px);pointer-events:none}.menu-page-grid .menu-card{will-change:opacity,transform}@keyframes menuFilterIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:900px){.nav-links,.nav-cta{display:none}.menu-toggle{display:block}.container{width:min(100% - 30px,720px)}.section{padding:80px 0}.hero{padding-bottom:55px}.hero-media{background-position:62% center}.legacy,.experience,.menu-preview,.story-inner,.visit-grid{grid-template-columns:1fr;gap:40px}.dish-grid{grid-template-columns:repeat(2,1fr)}.experience-media{min-height:420px}.menu-page-grid{grid-template-columns:repeat(2,1fr)}.story-year{font-size:8rem}.story-steps{grid-template-columns:1fr}.faq-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}.scroll-cue{display:none}}
+@media(max-width:560px){.container{width:calc(100% - 28px)}.nav{padding:10px 0}.nav-inner{padding:9px 11px}.brand{font-size:11px}.display{font-size:clamp(3.2rem,17vw,5.2rem)}.hero p{font-size:15px}.hero-actions{display:grid;grid-template-columns:1fr}.hero-actions .btn{width:100%}.section-head{display:block;margin-bottom:30px}.section-head p{margin-top:18px}.dish-grid{grid-template-columns:1fr 1fr;gap:10px}.dish-body{padding:14px}.dish-body h3{font-size:22px}.dish-body p{font-size:11px}.experience-copy{padding:50px 24px}.menu-row{grid-template-columns:62px 1fr;gap:12px}.menu-thumb{width:62px;height:62px}.price{grid-column:2}.menu-row h3{font-size:21px}.menu-page-grid{grid-template-columns:1fr}.page-hero{padding:150px 0 70px}.page-hero h1{font-size:clamp(4rem,18vw,6rem)}.filterbar{top:60px}.visit-card{padding:30px 24px}.map-wrap,.map-wrap iframe{min-height:400px}.contact-row{grid-template-columns:82px 1fr}.footer-grid{grid-template-columns:1fr}.footer-bottom{display:block}.footer-bottom span{display:block;margin-top:6px}.lightbox{padding:12px}.lb-prev,.lb-next{top:auto;bottom:18px;transform:none}.lb-prev{left:20px}.lb-next{right:20px}}
+/* Premium motion layer — animation-only enhancement; layout and palette remain unchanged. */
+.nav,.nav-inner{transition:padding .35s ease,background-color .35s ease,backdrop-filter .35s ease,-webkit-backdrop-filter .35s ease,box-shadow .35s ease,border-color .35s ease}
+.nav-links a{transition:opacity .3s ease,color .3s ease,transform .3s cubic-bezier(.22,1,.36,1)}
+.nav-links a:hover{transform:translateY(-1px)}
+.btn,.nav-cta{transition:transform .28s cubic-bezier(.22,.61,.36,1),box-shadow .35s ease,background-color .3s ease,border-color .3s ease}
+.btn:active,.nav-cta:active{transform:translateY(1px) scale(.985);box-shadow:0 5px 16px rgba(23,59,50,.12)}
+.btn span{display:inline-block;transition:transform .3s cubic-bezier(.22,1,.36,1)}
+.btn:hover span{transform:translateX(4px)}
+.menu-toggle{transition:transform .28s cubic-bezier(.22,1,.36,1),background-color .28s ease,box-shadow .28s ease,border-color .28s ease}
+.menu-toggle:active{transform:scale(.94)}
+.menu-toggle[aria-expanded="true"]{box-shadow:0 8px 24px rgba(0,0,0,.12)}
+
+/* Cinematic opening intro: short, non-blocking and replayed on each fresh page load. */
+.bv-motion .intro-screen{opacity:0;visibility:hidden;pointer-events:none;position:fixed;inset:0;z-index:3000;display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--ivory);color:var(--green)}
+.bv-motion body.intro-active .intro-screen{opacity:1;visibility:visible;pointer-events:none;animation:introScreenOut .46s cubic-bezier(.22,1,.36,1) 1.18s forwards}
+.bv-motion .intro-brand{font-size:13px;font-weight:800;letter-spacing:.2em;opacity:0;transform:translateY(12px);animation:introBrand .62s cubic-bezier(.22,1,.36,1) .08s forwards}
+.bv-motion .intro-line{width:0;height:1px;margin-top:14px;background:var(--brass);animation:introLine .48s cubic-bezier(.22,1,.36,1) .48s forwards}
+.bv-motion body.intro-active .view-home .hero-media{opacity:0;transform:scale(1.04);animation:heroMediaIn 1.05s cubic-bezier(.22,1,.36,1) .96s forwards}
+.bv-motion body.intro-active .view-home .hero-content{opacity:0;transform:translateY(16px);animation:heroContentIn .7s cubic-bezier(.22,1,.36,1) 1.04s forwards}
+.bv-motion body.intro-active .view-home .hero-content .eyebrow{opacity:0;transform:translateY(12px);animation:heroPartIn .58s cubic-bezier(.22,1,.36,1) 1.10s forwards}
+.bv-motion body.intro-active .view-home .hero-content h1{opacity:0;transform:translateY(20px);animation:heroPartIn .68s cubic-bezier(.22,1,.36,1) 1.17s forwards}
+.bv-motion body.intro-active .view-home .hero-content p{opacity:0;transform:translateY(16px);animation:heroPartIn .62s cubic-bezier(.22,1,.36,1) 1.26s forwards}
+.bv-motion body.intro-active .view-home .hero-actions{opacity:0;transform:translateY(12px);animation:heroPartIn .62s cubic-bezier(.22,1,.36,1) 1.35s forwards}
+
+/* Scroll reveal: GPU-friendly, one-time IntersectionObserver driven states. */
+.bv-motion .reveal{opacity:0;transform:translateY(30px);transition:opacity .72s cubic-bezier(.22,1,.36,1),transform .72s cubic-bezier(.22,1,.36,1);will-change:transform,opacity}
+.bv-motion .reveal.visible{opacity:1;transform:none;will-change:auto}
+.bv-motion .motion-image{opacity:0;transform:scale(.97);transition:opacity .72s cubic-bezier(.22,1,.36,1),transform .82s cubic-bezier(.22,1,.36,1);will-change:opacity,transform}
+.bv-motion .motion-image.visible{opacity:1;transform:scale(1);will-change:auto}
+.bv-motion .motion-image-wrap{overflow:hidden}
+.bv-motion .motion-image-wrap>img{transition:transform .65s cubic-bezier(.22,1,.36,1)}
+.bv-motion .motion-image-wrap:hover>img{transform:scale(1.03)}
+
+/* Existing featured/menu cards get a quiet stagger, never a dramatic entrance. */
+.bv-motion .motion-card{opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);will-change:transform,opacity}
+.bv-motion .motion-card.visible{opacity:1;transform:none;will-change:auto}
+.bv-motion .motion-stagger{opacity:0;transform:translateY(18px);transition:opacity .62s cubic-bezier(.22,1,.36,1),transform .62s cubic-bezier(.22,1,.36,1);will-change:transform,opacity}
+.bv-motion .motion-stagger.visible{opacity:1;transform:none;will-change:auto}
+.bv-motion .menu-page-grid .menu-card.menu-stagger{opacity:0;transform:translateY(18px);will-change:transform,opacity}
+.bv-motion .menu-page-grid .menu-card.menu-stagger.menu-card-in{animation:menuCardIn .6s cubic-bezier(.22,1,.36,1) forwards}
+@keyframes menuCardIn{to{opacity:1;transform:translateY(0)}}
+@keyframes introBrand{to{opacity:1;transform:none}}
+@keyframes introLine{to{width:74px}}
+@keyframes introScreenOut{to{opacity:0;visibility:hidden}}
+@keyframes heroMediaIn{to{opacity:1;transform:scale(1)}}
+@keyframes heroContentIn{to{opacity:1;transform:none}}
+@keyframes heroPartIn{to{opacity:1;transform:none}}
+
+
+/* Gallery: subtle editorial reveal and restrained desktop hover. */
+.bv-motion .gallery-item{overflow:hidden}
+.bv-motion .gallery-item img{transition:transform .65s cubic-bezier(.22,1,.36,1),opacity .65s ease}
+.bv-motion .gallery-item:hover img{transform:scale(1.03)}
+.bv-motion .gallery-item.gallery-stagger{opacity:0;transform:translateY(16px) scale(.98);will-change:transform,opacity}
+.bv-motion .gallery-item.gallery-stagger.gallery-item-in{animation:galleryItemIn .6s cubic-bezier(.22,1,.36,1) forwards}
+@keyframes galleryItemIn{to{opacity:1;transform:translateY(0) scale(1)}}
+
+/* Route transitions preserve the existing SPA/hash navigation. */
+.bv-motion .view{transition:opacity .36s ease,transform .36s cubic-bezier(.22,1,.36,1)}
+body.route-ready .view{will-change:auto}
+body.route-ready .view.route-visible{display:block}
+body.route-ready .view.route-leaving{display:block;opacity:0;transform:translateY(-8px);pointer-events:none}
+body.route-ready .view.route-entering{display:block;opacity:0;transform:translateY(12px)}
+body.route-ready .view.route-settled{display:block;opacity:1;transform:none}
+
+/* Mobile drawer: panel + overlay + sequential links. */
+.bv-motion .mobile-menu{visibility:hidden;opacity:0;pointer-events:none;transform:translateY(-22px);transition:opacity .42s ease,transform .52s cubic-bezier(.22,1,.36,1),visibility 0s linear .52s;will-change:transform,opacity}
+.bv-motion .mobile-menu::before{content:"";position:absolute;inset:0;background:rgba(8,20,16,.18);opacity:0;transition:opacity .42s ease;pointer-events:none}
+.bv-motion .mobile-menu.open{visibility:visible;opacity:1;pointer-events:auto;transform:translateY(0);transition:opacity .42s ease,transform .52s cubic-bezier(.22,1,.36,1),visibility 0s linear 0s}
+.bv-motion .mobile-menu.open::before{opacity:1}
+.bv-motion .mobile-menu a,.bv-motion .mobile-menu .eyebrow{position:relative;z-index:1;opacity:0;transform:translateY(14px);transition:opacity .42s ease,transform .52s cubic-bezier(.22,1,.36,1)}
+.bv-motion .mobile-menu.open .eyebrow,.bv-motion .mobile-menu.open a{opacity:1;transform:none}
+.bv-motion .mobile-menu.open .eyebrow{transition-delay:40ms}
+.bv-motion .mobile-menu.open a:nth-of-type(1){transition-delay:90ms}
+.bv-motion .mobile-menu.open a:nth-of-type(2){transition-delay:150ms}
+.bv-motion .mobile-menu.open a:nth-of-type(3){transition-delay:210ms}
+.bv-motion .mobile-menu.open a:nth-of-type(4){transition-delay:270ms}
+.bv-motion .mobile-menu.open a:nth-of-type(5){transition-delay:330ms}
+.bv-motion .mobile-menu.closing{visibility:visible;opacity:0;pointer-events:none;transform:translateY(-18px);transition:opacity .34s ease,transform .42s cubic-bezier(.55,.06,.68,.19),visibility 0s linear .42s}
+.bv-motion .mobile-menu.closing::before{opacity:0}
+.bv-motion .mobile-menu.closing a,.bv-motion .mobile-menu.closing .eyebrow{opacity:0;transform:translateY(-8px);transition-delay:0ms}
+
+/* Lightbox: smooth fade and tiny scale only. */
+.bv-motion .lightbox{opacity:0;visibility:hidden;transition:opacity .32s ease,visibility 0s linear .32s}
+.bv-motion .lightbox.open{display:flex;opacity:1;visibility:visible;transition:opacity .32s ease,visibility 0s linear 0s}
+.bv-motion .lightbox img{opacity:0;transform:scale(.985);transition:opacity .38s ease,transform .42s cubic-bezier(.22,1,.36,1);will-change:transform,opacity}
+.bv-motion .lightbox.open img{opacity:1;transform:scale(1)}
+.bv-motion .lightbox button{transition:transform .25s ease,background-color .25s ease}
+.bv-motion .lightbox button:hover{transform:scale(1.04)}
+.bv-motion .lb-prev:hover,.bv-motion .lb-next:hover{transform:translateY(-50%) scale(1.04)}
+
+button,a{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.nav-inner{min-height:52px}.menu-toggle:focus-visible,.mobile-close:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--brass-light);outline-offset:3px}
+@media(max-width:900px){.menu-toggle{display:inline-flex}.nav-inner{position:relative;z-index:95}.mobile-menu a{min-height:54px;display:flex;align-items:center}.hero,.section,.experience,.page-hero{overflow-x:clip}.bv-motion .gallery-item:hover img,.bv-motion .motion-image-wrap:hover>img{transform:none}}
+@media(max-width:900px){.menu-toggle[aria-expanded="true"]{position:fixed;right:15px;top:14px;background:rgba(16,45,38,.96);border-color:rgba(209,180,119,.38);color:#fff;z-index:130}.mobile-menu{pointer-events:none}.mobile-menu.open{pointer-events:auto}}
+@media(max-width:560px){.view-menu .page-hero{padding-top:176px}.view-menu .filterbar{top:64px}.btn:hover{transform:none;box-shadow:none}.btn:hover span{transform:none}.lb-prev:hover,.lb-next:hover{transform:none}}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .intro-screen,.bv-motion body.intro-active .intro-screen{animation:none!important;opacity:0!important;visibility:hidden!important;pointer-events:none!important}
+  body.intro-active .view-home .hero-media,body.intro-active .view-home .hero-content,body.intro-active .view-home .hero-content .eyebrow,body.intro-active .view-home .hero-content h1,body.intro-active .view-home .hero-content p,body.intro-active .view-home .hero-actions{animation:none!important;opacity:1!important;transform:none!important}
+  .bv-motion .reveal,.bv-motion .motion-image,.bv-motion .motion-card,.bv-motion .motion-stagger,.bv-motion .menu-page-grid .menu-card.menu-stagger,.bv-motion .gallery-item.gallery-stagger{opacity:1!important;transform:none!important;transition:none!important;animation:none!important;will-change:auto!important}
+  .menu-page-grid .menu-card.filter-out{transition:none!important}.menu-page-grid .menu-card.filter-in{animation:none!important;opacity:1;transform:none}.mobile-menu,.mobile-menu.open,.mobile-menu.closing{transition:none!important;visibility:visible;opacity:1;transform:none}
+  .mobile-menu:not(.open){visibility:hidden;opacity:0}
+  .mobile-menu a,.mobile-menu .eyebrow{opacity:1!important;transform:none!important;transition:none!important}
+  .view,.view.route-leaving,.view.route-entering,.view.route-settled{transition:none!important;opacity:1;transform:none}
+  .lightbox{transition:none!important}.lightbox.open{opacity:1;visibility:visible}.lightbox img{opacity:1;transform:none;transition:none!important}
+  .nav,.nav-inner,.nav-links a,.menu-toggle,.btn,.nav-cta,.lightbox button{transition:none!important}
+}
+
+/* LOCAL MENU IMAGE HARDENING */
+.menu-card .dish-img{height:220px;aspect-ratio:auto;overflow:hidden;background:#E9E0D0;position:relative;}
+.menu-card .dish-img img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;min-width:0;min-height:0;}
+.menu-card .dish-img img.image-fallback{object-fit:cover;}
+@media (max-width:767px){.menu-page-grid{grid-template-columns:1fr;gap:16px}.menu-card .dish-img{height:clamp(185px,54vw,230px)}}
+@media (min-width:768px) and (max-width:1023px){.menu-page-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.menu-card .dish-img{height:240px}}
+@media (min-width:1024px){.menu-page-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.menu-card .dish-img{height:220px}}
+
+/* Premium combined floating contact control — additive only */
+.floating-contact-actions{position:fixed;right:18px;bottom:20px;z-index:1000;display:flex;align-items:center;justify-content:center;width:132px;height:56px;padding:0;border:1px solid rgba(176,138,74,.46);border-radius:999px;background:#183C32;box-shadow:0 12px 30px rgba(15,36,30,.24);pointer-events:none;overflow:visible;opacity:0;transform:translateY(10px) scale(.96);animation:contactPillFloatIn .48s cubic-bezier(.22,1,.36,1) 1.62s forwards;transition:transform .45s cubic-bezier(.22,1,.36,1),box-shadow .35s ease}
+.floating-contact-actions::before{content:"";position:absolute;left:50%;top:11px;bottom:11px;width:1px;background:rgba(247,243,234,.20);transform:translateX(-50%);pointer-events:none}
+.floating-contact-actions .floating-contact{position:relative;display:flex;align-items:center;justify-content:center;flex:1;width:50%;height:100%;min-width:44px;min-height:44px;border:0;border-radius:999px;background:transparent;color:#F7F3EA;text-decoration:none;pointer-events:auto;outline:none;transition:transform .3s cubic-bezier(.22,1,.36,1),background-color .3s ease}
+.floating-contact-actions .floating-contact svg{width:21px;height:21px;display:block;fill:currentColor}
+.floating-contact-actions .floating-contact.call svg{width:20px;height:20px}
+.floating-contact-actions .floating-contact::after{content:"";position:absolute;right:calc(100% + 10px);top:50%;transform:translateY(-50%) translateX(4px);padding:7px 10px;border:1px solid rgba(176,138,74,.35);border-radius:6px;background:#183C32;color:#F7F3EA;font-size:11px;letter-spacing:.04em;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .25s ease,transform .25s ease}
+.floating-contact-actions .floating-contact.whatsapp::after{content:"Chat with us"}
+.floating-contact-actions .floating-contact.call::after{content:"Call Bansi Vihar"}
+@media (hover:hover) and (pointer:fine){.floating-contact-actions:hover{transform:translateY(0) scale(1.03);box-shadow:0 15px 34px rgba(15,36,30,.28)}.floating-contact-actions .floating-contact:hover{transform:scale(1.03);background:rgba(247,243,234,.06)}.floating-contact-actions .floating-contact:hover::after{opacity:1;transform:translateY(-50%) translateX(0)}}
+.floating-contact-actions .floating-contact:active{transform:scale(.97);transition-duration:.12s}
+@keyframes contactPillFloatIn{from{opacity:0;transform:translateY(10px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media (max-width:430px){.floating-contact-actions{right:14px;bottom:calc(14px + env(safe-area-inset-bottom));width:120px;height:52px}.floating-contact-actions::before{top:10px;bottom:10px}.floating-contact-actions .floating-contact::after{display:none}}
+@media (max-width:340px){.floating-contact-actions{right:12px;width:112px;height:50px}}
+@media (prefers-reduced-motion:reduce){.floating-contact-actions{animation:none;opacity:1;transform:none;transition:none}.floating-contact-actions .floating-contact{transition:none}.floating-contact-actions .floating-contact:active,.floating-contact-actions .floating-contact:hover{transform:none}}
+
+
+/* MASTER PREMIUM POLISH — preserves the existing SPA architecture and functionality. */
+.gallery-editorial .gallery-item.gallery-filter-in{animation:galleryFilterIn .38s cubic-bezier(.22,1,.36,1) both}@keyframes galleryFilterIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+:root{--ivory:#F6F1E8;--paper:#FFFDF9;--ink:#24231F;--green:#183C32;--green2:#102D26;--brass:#B08A4A;--line:rgba(36,35,31,.13)}
+body{background:var(--ivory)}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:2000;opacity:.025;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E");mix-blend-mode:multiply}
+:focus-visible{outline:2px solid var(--brass);outline-offset:4px}
+.nav{padding:16px 0;transition:padding .45s cubic-bezier(.22,1,.36,1)}
+.nav-inner{transition:background-color .45s ease,border-color .45s ease,box-shadow .45s ease,backdrop-filter .45s ease,transform .45s cubic-bezier(.22,1,.36,1)}
+.nav.scrolled .nav-inner{background:rgba(246,241,232,.78);border-color:rgba(176,138,74,.22);box-shadow:0 12px 36px rgba(24,60,50,.10)}
+.hero-media{background-image:linear-gradient(90deg,rgba(8,20,16,.57) 0%,rgba(8,20,16,.28) 48%,rgba(8,20,16,.12) 100%),url('assets/bansi-vihar-restaurant-exterior.jpg');background-size:cover;background-position:center center}
+.hero-media::after{background:linear-gradient(180deg,rgba(8,20,16,.10),transparent 32%,rgba(8,20,16,.16) 100%)}
+.hero-content{max-width:780px}.hero p{color:rgba(251,249,244,.82)}
+.scroll-cue{letter-spacing:.22em}.scroll-cue::first-letter{}
+.btn,.nav-cta{transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s ease,background-color .3s ease,border-color .3s ease}
+.btn:hover,.nav-cta:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(24,60,50,.16)}
+.section-head{margin-bottom:54px}.section-head h2{letter-spacing:-.04em}
+/* Editorial signature composition */
+.signature-section{overflow:hidden}.signature-editorial{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(280px,.82fr);gap:18px;align-items:stretch}.signature-feature,.signature-mini{background:var(--paper);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 10px 32px rgba(36,35,31,.035);transition:transform .4s cubic-bezier(.22,1,.36,1),box-shadow .4s ease}.signature-feature:hover,.signature-mini:hover{transform:translateY(-4px);box-shadow:0 18px 45px rgba(36,35,31,.09)}.signature-image{overflow:hidden;background:var(--sand)}.signature-feature .signature-image{aspect-ratio:1.18/1}.signature-mini .signature-image{aspect-ratio:1.35/1}.signature-image img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.22,1,.36,1)}.signature-feature:hover img,.signature-mini:hover img{transform:scale(1.035)}.signature-copy{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;padding:22px 24px 24px}.signature-copy h3{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,3vw,2.5rem);line-height:.98;margin:7px 0 8px}.signature-copy p{font-size:13px;color:rgba(36,35,31,.62);margin:0;max-width:440px}.signature-label{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);font-weight:800}.signature-price{font-family:var(--serif);font-size:23px;font-weight:600;color:var(--green);white-space:nowrap}.signature-supporting{display:grid;grid-template-rows:1fr 1fr;gap:18px}.signature-mini{display:grid;grid-template-columns:1.05fr 1fr}.signature-mini .signature-copy{padding:18px 18px 20px;align-items:center}.signature-mini .signature-copy h3{font-size:clamp(1.5rem,2.3vw,2rem)}.signature-mini .signature-price{font-size:20px}.signature-action{margin-top:28px}
+/* Premium menu list: image + name + description + price, not generic cards. */
+.view-menu .menu-page-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 44px;align-items:start}.view-menu .menu-card{display:grid;grid-template-columns:104px minmax(0,1fr) auto;gap:18px;align-items:center;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;overflow:visible;padding:17px 0;box-shadow:none}.view-menu .menu-card:last-child{border-bottom:1px solid var(--line)}.view-menu .menu-card .dish-img{grid-column:1;width:104px;height:104px;min-height:104px;aspect-ratio:1;border-radius:14px;overflow:hidden;background:var(--sand)}.view-menu .menu-card .dish-body{grid-column:2/4;padding:0;min-width:0;display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:18px;align-items:start}.view-menu .menu-card .category-label{grid-column:1/-1;order:2;font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);font-weight:800;margin-top:7px}.view-menu .menu-card .menu-meta{display:contents}.view-menu .menu-card .menu-meta h3{grid-column:1;font-size:25px;margin:0;line-height:1}.view-menu .menu-card .price{grid-column:2;grid-row:1;font-family:var(--serif);font-size:22px;font-weight:600}.view-menu .menu-card .dish-body>p{grid-column:1/-1;font-size:12px;color:rgba(36,35,31,.58);margin:8px 0 0}.view-menu .menu-card .dish-img img{transition:transform .65s cubic-bezier(.22,1,.36,1)}.view-menu .menu-card:hover .dish-img img{transform:scale(1.04)}.view-menu .menu-filter-empty{grid-column:1/-1;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;padding:54px 10px;color:var(--taupe)}
+.filterbar{top:72px;background:rgba(246,241,232,.88);border-bottom-color:rgba(176,138,74,.18);box-shadow:0 8px 24px rgba(36,35,31,.04)}.filter-inner{gap:9px;scroll-padding-inline:14px}.chip{transition:background-color .28s ease,color .28s ease,border-color .28s ease,transform .25s ease,box-shadow .28s ease}.chip.active{box-shadow:0 5px 16px rgba(24,60,50,.10)}
+/* Editorial masonry gallery */
+.gallery-editorial{columns:3 260px;column-gap:18px}.gallery-editorial .gallery-item{margin-bottom:18px;border-radius:16px;box-shadow:0 10px 30px rgba(36,35,31,.04)}.gallery-editorial .gallery-feature{break-inside:avoid}.gallery-editorial .gallery-item img{transition:transform .75s cubic-bezier(.22,1,.36,1),opacity .5s ease}.gallery-editorial .gallery-item:hover img{transform:scale(1.035)}.gallery-filter{border-bottom:1px solid var(--line);padding-bottom:14px}
+/* Visit section refinement */
+.visit-card{border-radius:18px;border:1px solid var(--line);box-shadow:0 16px 42px rgba(36,35,31,.06)}.map-wrap{border-radius:18px;overflow:hidden;box-shadow:0 16px 42px rgba(36,35,31,.08);border:1px solid rgba(176,138,74,.16)}
+/* Page spacing keeps sticky navigation from covering headings. */
+.page-hero{padding-top:172px}.view-menu .page-hero{padding-top:174px}.view-menu .filterbar{scroll-margin-top:76px}
+/* Existing route transition, refined toward quiet 0.5s motion. */
+.bv-motion .view{transition:opacity .48s ease,transform .48s cubic-bezier(.22,1,.36,1)}
+/* Combined contact pill: always shows both actions clearly. */
+.floating-contact-actions{width:146px;height:54px;background:rgba(24,60,50,.96);border-color:rgba(176,138,74,.48);box-shadow:0 14px 36px rgba(15,36,30,.25);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.floating-contact-actions .floating-contact{gap:6px;font-size:9px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.floating-contact-actions .floating-contact span{display:inline}.floating-contact-actions .floating-contact svg{width:18px;height:18px}.floating-contact-actions .floating-contact.call svg{width:17px;height:17px}.floating-contact-actions .floating-contact::after{display:none}
+@media(max-width:900px){.hero-media{background-position:64% center}.signature-editorial{grid-template-columns:1fr}.signature-supporting{grid-template-columns:1fr 1fr;grid-template-rows:none}.signature-mini{grid-template-columns:1fr}.signature-mini .signature-copy{display:block}.view-menu .menu-page-grid{grid-template-columns:1fr}.view-menu .menu-card{grid-template-columns:88px minmax(0,1fr) auto}.view-menu .menu-card .dish-img{width:88px;height:88px;min-height:88px}.view-menu .menu-card .dish-body{grid-column:2/4}.gallery-editorial{columns:2 240px}.page-hero{padding-top:160px}}
+@media(max-width:560px){.nav{padding:9px 0}.nav-inner{padding:8px 10px}.hero{padding-top:132px;padding-bottom:56px}.hero-media{background-position:68% center}.page-hero,.view-menu .page-hero{padding-top:142px}.filterbar{top:60px}.view-menu .menu-page-grid{gap:0}.view-menu .menu-card{grid-template-columns:68px minmax(0,1fr) auto;gap:12px;padding:14px 0}.view-menu .menu-card .dish-img{width:68px;height:68px;min-height:68px;border-radius:12px}.view-menu .menu-card .menu-meta h3{font-size:21px}.view-menu .menu-card .price{font-size:20px}.view-menu .menu-card .dish-body>p{font-size:11px;margin-top:6px}.signature-supporting{grid-template-columns:1fr;gap:12px}.signature-mini{grid-template-columns:112px minmax(0,1fr)}.signature-mini .signature-image{aspect-ratio:1}.signature-mini .signature-copy{display:flex;padding:15px}.signature-mini .signature-copy h3{font-size:1.55rem}.signature-mini .signature-price{font-size:19px}.gallery-editorial{columns:1}.gallery-editorial .gallery-item{margin-bottom:12px}.floating-contact-actions{right:14px;bottom:calc(14px + env(safe-area-inset-bottom));width:140px;height:52px}.floating-contact-actions .floating-contact{font-size:8px;gap:4px}.floating-contact-actions .floating-contact svg{width:17px;height:17px}}
+@media(max-width:340px){.floating-contact-actions{right:10px;width:132px;height:50px}.floating-contact-actions .floating-contact{font-size:7.5px}.view-menu .menu-card{grid-template-columns:62px minmax(0,1fr) auto;gap:10px}.view-menu .menu-card .dish-img{width:62px;height:62px;min-height:62px}.view-menu .menu-card .menu-meta h3{font-size:19px}}
+@media(prefers-reduced-motion:reduce){body::before{display:none}.signature-feature,.signature-mini,.signature-image img,.btn,.nav-cta{transition:none}.view-menu .menu-card:hover .dish-img img,.signature-feature:hover img,.signature-mini:hover img{transform:none}.gallery-editorial .gallery-item:hover img{transform:none}}
+</style><script>document.documentElement.classList.add("bv-motion");</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Bansi Vihar Restaurant","telephone":"+91-612-222-4804","address":{"@type":"PostalAddress","streetAddress":"Marwari Campus, Chauraha, Fraser Road, near Bank of India, Dak Bunglow","addressLocality":"Patna","addressRegion":"Bihar","postalCode":"800001","addressCountry":"IN"},"servesCuisine":["South Indian","Chinese"],"openingHours":"Mo-Su 08:00-23:00","url":"https://bansivihar.com/"}</script></head><body><div class="intro-screen" aria-hidden="true"><div class="intro-brand">BANSI VIHAR</div><div class="intro-line"></div></div><header aria-label="Primary navigation" class="nav"><div class="container nav-inner">
+<a aria-label="Bansi Vihar home" class="brand" data-route="home" href="#home">BANSI VIHAR</a>
+<nav aria-label="Desktop navigation" class="nav-links">
+<a data-route="home" href="#home">Home</a><a data-route="menu" href="#menu">Menu</a><a data-route="story" href="#story">Our Story</a><a data-route="gallery" href="#gallery">Gallery</a><a data-route="visit" href="#visit">Visit Us</a>
+</nav>
+<a class="nav-cta" data-route="menu" href="#menu">View Menu</a>
+<button aria-controls="mobile-navigation" aria-expanded="false" aria-label="Open menu" class="menu-toggle" type="button"><span></span><span></span><span></span></button>
+</div></header><div aria-hidden="true" aria-label="Mobile navigation" class="mobile-menu" id="mobile-navigation">
+<button aria-label="Close menu" class="mobile-close" type="button"><span aria-hidden="true">×</span></button>
+<div class="eyebrow">Bansi Vihar · Patna</div>
+<a data-route="home" href="#home">Home</a><a data-route="menu" href="#menu">Menu</a><a data-route="story" href="#story">Our Story</a><a data-route="gallery" href="#gallery">Gallery</a><a data-route="visit" href="#visit">Visit Us</a>
+</div><main aria-live="polite" id="app"><section aria-label="Home view" class="view view-home" data-view="home" id="home"><section class="hero"><div class="hero-media"></div><div class="container hero-content reveal"><div class="eyebrow">Since 1994 · Patna</div><h1 class="display">A Taste That<br/> Became a Tradition.</h1><p>Authentic vegetarian flavours, served with the warmth of a Patna favourite.</p><div class="hero-actions"><a class="btn" data-route="menu" href="#menu">Explore Menu <span>↗</span></a><a class="btn light" data-route="visit" href="#visit">Visit Bansi Vihar</a></div></div><div class="scroll-cue"><span></span>Scroll to explore</div></section>
+<section class="section"><div class="container legacy reveal"><div class="legacy-copy"><div class="eyebrow">A Legacy of Taste</div><h2>Three Decades.<br/>One Tradition.</h2><p>Bansi Vihar has been serving vegetarian favourites in Patna since 1994, bringing together the comfort of familiar flavours and the character of South Indian cuisine.</p><div class="timeline"><div><strong>1994</strong><small>Established</small></div><div style="font-size:28px;color:var(--brass)">→</div><div style="text-align:right"><strong>Today</strong><small>A Patna favourite</small></div></div></div><div><img alt="Special Masala Dosa served with accompaniments" loading="lazy" src="https://bansivihar.com/assets/img/SpecialMasalaDosa.jpg" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px"/></div></div></section>
+<section class="section paper signature-section"><div class="container"><div class="section-head reveal"><div><div class="eyebrow">Signature Dishes</div><h2>Made Worth<br/>Remembering.</h2></div><p>Some favourites become traditions. A considered selection from the published Bansi Vihar menu.</p></div><div class="signature-editorial"><article class="signature-feature reveal"><div class="signature-image"><img alt="Special Masala Dosa served with accompaniments" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://bansivihar.com/assets/img/SpecialMasalaDosa.jpg"/></div><div class="signature-copy"><div><span class="signature-label">Signature · 01</span><h3>Special Masala Dosa</h3><p>Crisp dosa with a generous spiced potato filling.</p></div><strong class="signature-price">₹280</strong></div></article><div class="signature-supporting"><article class="signature-mini reveal"><div class="signature-image"><img alt="Butter Paper Masala Dosa" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://bansivihar.com/assets/img/ButterPaperMasalaDosa.jpg"/></div><div class="signature-copy"><div><span class="signature-label">Signature · 02</span><h3>Butter Paper Masala</h3><p>Long, delicate paper dosa finished with butter.</p></div><strong class="signature-price">₹250</strong></div></article><article class="signature-mini reveal"><div class="signature-image"><img alt="Onion Masala Dosa" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://bansivihar.com/assets/img/OnionMasalaDosa.jpg"/></div><div class="signature-copy"><div><span class="signature-label">Signature · 03</span><h3>Onion Masala Dosa</h3><p>Golden dosa layered with onion and masala.</p></div><strong class="signature-price">₹190</strong></div></article></div></div><div class="signature-action reveal"><a class="btn alt" data-route="menu" href="#menu">Explore Full Menu →</a></div></div></section>
+<section class="experience"><div class="experience-media"></div><div class="experience-copy"><div><div class="eyebrow">The Bansi Vihar Experience</div><h2>More Than<br/>A Meal.</h2><p>A familiar place to gather, eat and create memories—built around vegetarian food and the warmth of a restaurant that has been part of Patna for decades.</p><div class="feature-list"><div class="feature"><b>01</b> PURE VEGETARIAN</div><div class="feature"><b>02</b> FAMILY FRIENDLY</div><div class="feature"><b>03</b> SOUTH INDIAN FAVOURITES</div></div></div></div></section>
+<section class="section"><div class="container menu-preview reveal"><div><div class="eyebrow">Menu Preview</div><h2 class="serif" style="font-size:clamp(3rem,6vw,5.4rem);line-height:.9;font-weight:500;margin:12px 0 20px">From the Classics to the Favourites.</h2><p style="color:rgba(32,35,31,.65)">Explore South Indian classics alongside Chinese favourites, snacks, drinks and desserts.</p><a class="btn" data-route="menu" href="#menu" style="margin-top:25px">View Complete Menu</a></div><div><div class="menu-tabs" style="margin-bottom:24px"><span class="chip active">South Indian</span><span class="chip">Dosa</span><span class="chip">Uttapam</span><span class="chip">Chinese</span><span class="chip">Snacks</span><span class="chip">Thali</span><span class="chip">Beverages</span><span class="chip">Desserts</span></div><div class="menu-list"><div class="menu-row"><img alt="Special Masala Dosa" class="menu-thumb" loading="lazy" src="https://bansivihar.com/assets/img/SpecialMasalaDosa.jpg"/><div><h3>Special Masala Dosa</h3><p>Crisp dosa with potato masala.</p></div><span class="price">₹280</span></div><div class="menu-row"><img alt="Butter Paper Masala Dosa" class="menu-thumb" loading="lazy" src="https://bansivihar.com/assets/img/ButterPaperMasalaDosa.jpg"/><div><h3>Butter Paper Masala Dosa</h3><p>Paper dosa finished with butter and masala.</p></div><span class="price">₹250</span></div><div class="menu-row"><img alt="Onion Masala Dosa" class="menu-thumb" loading="lazy" src="https://bansivihar.com/assets/img/OnionMasalaDosa.jpg"/><div><h3>Onion Masala Dosa</h3><p>Onion, masala and a crisp dosa.</p></div><span class="price">₹190</span></div></div></div></div></section>
+<section class="section dark story-band"><div class="container story-inner reveal"><div class="story-year">1994</div><div class="story-copy"><div class="eyebrow">Our Story</div><h2>A tradition begins.</h2><p>Bansi Vihar describes itself as a culinary landmark in Patna, serving South Indian and Chinese cuisine since 1994. The story is simple: a long-running place built around familiar vegetarian favourites.</p><div class="story-steps"><div class="story-step"><b>1994</b><span>The Beginning</span></div><div class="story-step"><b>→</b><span>Growing With Patna</span></div><div class="story-step"><b>Today</b><span>A continuing tradition</span></div></div><a class="btn light" data-route="story" href="#story" style="margin-top:30px">Discover Our Story</a></div></div></section>
+<section class="section paper"><div class="container review reveal"><div class="eyebrow">Customer Love</div><div class="quote">4.1 / 5<br/><span style="font-family:var(--sans);font-size:.28em;letter-spacing:.08em;text-transform:uppercase;color:var(--brass)">633 dining ratings · public listing</span></div><p class="review-note">Public restaurant listings currently show a 4.1 dining rating from 633 ratings. Tripadvisor separately lists 4.0 from 171 reviews. Ratings can change over time.</p><a class="btn alt" data-route="visit" href="#visit" style="margin-top:24px">Plan Your Visit</a></div></section>
+<section class="section"><div class="container"><div class="section-head reveal"><div><div class="eyebrow">Gallery</div><h2>A glimpse of the table.</h2></div><a class="btn alt" data-route="gallery" href="#gallery">View Gallery →</a></div><div class="gallery-grid"><div class="gallery-item reveal" data-alt="Special Masala Dosa" data-lightbox="https://bansivihar.com/assets/img/SpecialMasalaDosa.jpg"><img alt="Special Masala Dosa" loading="lazy" src="https://bansivihar.com/assets/img/SpecialMasalaDosa.jpg"/></div><div class="gallery-item reveal" data-alt="Butter Onion Masala Dosa" data-lightbox="https://bansivihar.com/assets/img/ButterOnionMasalaDosa.jpg"><img alt="Butter Onion Masala Dosa" loading="lazy" src="https://bansivihar.com/assets/img/ButterOnionMasalaDosa.jpg"/></div><div class="gallery-item reveal" data-alt="Butter Paper Masala Dosa" data-lightbox="https://bansivihar.com/assets/img/ButterPaperMasalaDosa.jpg"><img alt="Butter Paper Masala Dosa" loading="lazy" src="https://bansivihar.com/assets/img/ButterPaperMasalaDosa.jpg"/></div></div></div></section>
+<section class="section paper"><div class="container visit-grid reveal"><div class="visit-card"><div class="eyebrow">Visit Us</div><h2>Your Table<br/>Is Waiting.</h2><div class="contact-block"><div class="contact-row"><b>Address</b><span>Bansi Vihar Restaurant<br/>Marwari Campus, Chauraha, Fraser Road,<br/>near Bank of India, Dak Bunglow,<br/>Patna, Bihar 800001</span></div><div class="contact-row"><b>Phone</b><a href="tel:+916122224804">0612 222 4804</a></div><div class="contact-row"><b>Hours</b><span>8:00 AM – 11:00 PM · Monday–Sunday</span></div></div><div class="hero-actions"><a class="btn light" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bansi+Vihar+Restaurant+Patna" rel="noopener" target="_blank">Get Directions ↗</a><a class="btn light" href="tel:+916122224804">Call Restaurant</a></div></div><div class="map-wrap"><iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.902022674764!2d85.13497411132822!3d25.60817177735467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed585d2cac90df:0xc9d0961a5dd5ebb8!2sBansi+Vihar+Restaurant!5e0!3m2!1sen!2sin!4v1722696415153!5m2!1sen!2sin" title="Map showing Bansi Vihar Restaurant, Patna"></iframe></div></div></section></section><section aria-label="Menu view" class="view view-menu" data-view="menu" id="menu"><section class="page-hero"><div class="container reveal"><div class="eyebrow">Vegetarian Favourites</div><h1>THE MENU</h1><p>South Indian classics, Chinese favourites, snacks, drinks and desserts. Prices shown are from the restaurant's published menu and may change.</p></div></section><div class="filterbar"><div class="container filter-inner"><button class="chip active" data-filter="south-indian">South Indian</button><button class="chip" data-filter="dosa">Dosa</button><button class="chip" data-filter="uttapam">Uttapam</button><button class="chip" data-filter="chinese">Chinese</button><button class="chip" data-filter="snacks">Snacks</button><button class="chip" data-filter="thali">Thali</button><button class="chip" data-filter="beverages">Beverages</button><button class="chip" data-filter="desserts">Desserts</button></div></div><section class="section"><div class="container menu-page-grid">
+<article class="menu-card reveal" data-category="south-indian"><div class="dish-img"><img alt="Idly" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1741376509253-221ac18fac0f?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=88&amp;w=1200"/></div><div class="dish-body"><div class="category-label">south indian</div><div class="menu-meta"><h3>Idly</h3><span class="price">₹150</span></div><p>Soft steamed idli served as a South Indian classic.</p></div></article>
+<article class="menu-card reveal" data-category="south-indian"><div class="dish-img"><img alt="Sada Vada" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1756757077703-26dc3ba7e853?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=88&amp;w=1200"/></div><div class="dish-body"><div class="category-label">south indian</div><div class="menu-meta"><h3>Sada Vada</h3><span class="price">₹160</span></div><p>Crisp lentil fritter, a breakfast favourite.</p></div></article>
+<article class="menu-card reveal" data-category="dosa"><div class="dish-img"><img alt="Special Masala Dosa" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://bansivihar.com/assets/img/SpecialMasalaDosa.jpg"/></div><div class="dish-body"><div class="category-label">dosa</div><div class="menu-meta"><h3>Special Masala Dosa</h3><span class="price">₹280</span></div><p>Crisp dosa with spiced potato masala.</p></div></article>
+<article class="menu-card reveal" data-category="dosa"><div class="dish-img"><img alt="Masala Dosa" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1743615467204-8fdaa85ff2db?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=88&amp;w=1200"/></div><div class="dish-body"><div class="category-label">dosa</div><div class="menu-meta"><h3>Masala Dosa</h3><span class="price">₹180</span></div><p>Classic golden dosa with potato masala.</p></div></article>
+<article class="menu-card reveal" data-category="dosa"><div class="dish-img"><img alt="Butter Masala Dosa" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://bansivihar.com/assets/img/ButterMasalaDosa.jpg"/></div><div class="dish-body"><div class="category-label">dosa</div><div class="menu-meta"><h3>Butter Masala Dosa</h3><span class="price">₹190</span></div><p>Masala dosa finished with butter.</p></div></article>
+<article class="menu-card reveal" data-category="dosa"><div class="dish-img"><img alt="Onion Masala Dosa" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://bansivihar.com/assets/img/OnionMasalaDosa.jpg"/></div><div class="dish-body"><div class="category-label">dosa</div><div class="menu-meta"><h3>Onion Masala Dosa</h3><span class="price">₹190</span></div><p>Dosa layered with onion and masala.</p></div></article>
+<article class="menu-card reveal" data-category="dosa"><div class="dish-img"><img alt="Butter Paper Masala Dosa" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://bansivihar.com/assets/img/ButterPaperMasalaDosa.jpg"/></div><div class="dish-body"><div class="category-label">dosa</div><div class="menu-meta"><h3>Butter Paper Masala Dosa</h3><span class="price">₹250</span></div><p>Long paper dosa finished with butter and masala.</p></div></article>
+<article class="menu-card reveal" data-category="dosa"><div class="dish-img"><img alt="Paneer Masala Dosa" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://bansivihar.com/assets/img/PaneerMasalaDosa.jpg"/></div><div class="dish-body"><div class="category-label">dosa</div><div class="menu-meta"><h3>Paneer Masala Dosa</h3><span class="price">₹220</span></div><p>Masala dosa with paneer filling.</p></div></article>
+<article class="menu-card reveal" data-category="dosa"><div class="dish-img"><img alt="Onion Rava Masala Dosa" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1743615467204-8fdaa85ff2db?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=88&amp;w=1200"/></div><div class="dish-body"><div class="category-label">dosa</div><div class="menu-meta"><h3>Onion Rava Masala Dosa</h3><span class="price">₹280</span></div><p>Crisp rava dosa with onion and masala.</p></div></article>
+<article class="menu-card reveal" data-category="uttapam"><div class="dish-img"><img alt="Special Masala Onion Uttapam" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://maduraivilas.in/images/onion_uttapam.png"/></div><div class="dish-body"><div class="category-label">uttapam</div><div class="menu-meta"><h3>Special Masala Onion Uttapam</h3><span class="price">₹260</span></div><p>Signature onion uttapam with masala.</p></div></article>
+<article class="menu-card reveal" data-category="uttapam"><div class="dish-img"><img alt="Onion Masala Uttapam" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://maduraivilas.in/images/onion_uttapam.png"/></div><div class="dish-body"><div class="category-label">uttapam</div><div class="menu-meta"><h3>Onion Masala Uttapam</h3><span class="price">₹195</span></div><p>Uttapam with onion and masala.</p></div></article>
+<article class="menu-card reveal" data-category="uttapam"><div class="dish-img"><img alt="Tomato Uttapam" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://maduraivilas.in/images/onion_uttapam.png"/></div><div class="dish-body"><div class="category-label">uttapam</div><div class="menu-meta"><h3>Tomato Uttapam</h3><span class="price">₹180</span></div><p>Classic uttapam with tomato.</p></div></article>
+<article class="menu-card reveal" data-category="chinese"><div class="dish-img"><img alt="Vegetable Fried Rice" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://b.zmtcdn.com/data/pictures/chains/3/18932543/dd119c3d9308f8a04455001bafed7889.jpg"/></div><div class="dish-body"><div class="category-label">chinese</div><div class="menu-meta"><h3>Vegetable Fried Rice</h3><span class="price">₹250</span></div><p>Vegetable fried rice from the Chinese section.</p></div></article>
+<article class="menu-card reveal" data-category="chinese"><div class="dish-img"><img alt="Vegetable Chowmein" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1780493219430-c3e45cd17df8?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=88&amp;w=1200"/></div><div class="dish-body"><div class="category-label">chinese</div><div class="menu-meta"><h3>Vegetable Chowmein</h3><span class="price">₹250</span></div><p>Vegetable noodles with savoury seasoning.</p></div></article>
+<article class="menu-card reveal" data-category="chinese"><div class="dish-img"><img alt="Paneer Chilly" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://b.zmtcdn.com/data/pictures/chains/3/18932543/dd119c3d9308f8a04455001bafed7889.jpg"/></div><div class="dish-body"><div class="category-label">chinese</div><div class="menu-meta"><h3>Paneer Chilly</h3><span class="price">₹330</span></div><p>Paneer with a chilli-forward Chinese-style preparation.</p></div></article>
+<article class="menu-card reveal" data-category="chinese"><div class="dish-img"><img alt="Vegetable Manchurian" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://b.zmtcdn.com/data/pictures/chains/3/18932543/dd119c3d9308f8a04455001bafed7889.jpg"/></div><div class="dish-body"><div class="category-label">chinese</div><div class="menu-meta"><h3>Vegetable Manchurian</h3><span class="price">₹270</span></div><p>Crisp vegetable bites in a savoury sauce.</p></div></article>
+<article class="menu-card reveal" data-category="snacks"><div class="dish-img"><img alt="Paneer Pakora" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://chutneysbistro.com/dish%20image/vegetable%20pakoras.jpg"/></div><div class="dish-body"><div class="category-label">snacks</div><div class="menu-meta"><h3>Paneer Pakora</h3><span class="price">₹200</span></div><p>Crisp paneer fritters.</p></div></article>
+<article class="menu-card reveal" data-category="snacks"><div class="dish-img"><img alt="Vegetable Cutlet" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_900%2Ch_900%2Cc_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/17/8f313ea9-d43a-4b9a-8e94-fdc87ff4c520_cc6bbdcc-42ff-4ec3-82cb-39baafb7a76b.jpg"/></div><div class="dish-body"><div class="category-label">snacks</div><div class="menu-meta"><h3>Vegetable Cutlet</h3><span class="price">₹190</span></div><p>Golden vegetable cutlet.</p></div></article>
+<article class="menu-card reveal" data-category="snacks"><div class="dish-img"><img alt="Pav Bhaji" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1753357303396-704b5abe8945?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=88&amp;w=1200"/></div><div class="dish-body"><div class="category-label">snacks</div><div class="menu-meta"><h3>Pav Bhaji</h3><span class="price">₹190</span></div><p>Soft pav with spiced vegetable bhaji.</p></div></article>
+<article class="menu-card reveal" data-category="beverages"><div class="dish-img"><img alt="Cold Coffee" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1655314134811-6fc60ed672ad?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=88&amp;w=1200"/></div><div class="dish-body"><div class="category-label">beverages</div><div class="menu-meta"><h3>Cold Coffee</h3><span class="price">₹140</span></div><p>Chilled coffee beverage.</p></div></article>
+<article class="menu-card reveal" data-category="beverages"><div class="dish-img"><img alt="Lassi" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/d/df/Lassi.jpg"/></div><div class="dish-body"><div class="category-label">beverages</div><div class="menu-meta"><h3>Lassi</h3><span class="price">₹110</span></div><p>Traditional chilled lassi.</p></div></article>
+<article class="menu-card reveal" data-category="beverages"><div class="dish-img"><img alt="Fresh Lemon Soda" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1656057088883-546495ba6945?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=88&amp;w=1200"/></div><div class="dish-body"><div class="category-label">beverages</div><div class="menu-meta"><h3>Fresh Lemon Soda</h3><span class="price">₹85</span></div><p>Refreshing lemon soda.</p></div></article>
+<article class="menu-card reveal" data-category="desserts"><div class="dish-img"><img alt="Rasmalai" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://static.wixstatic.com/media/631137_f61f3ab0e8844976b95fdf3515d81c22~mv2.jpg/v1/fill/w_980%2Ch_1198%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/Artboard%201%20%281%29.jpg"/></div><div class="dish-body"><div class="category-label">desserts</div><div class="menu-meta"><h3>Rasmalai</h3><span class="price">₹140</span></div><p>Soft rasmalai in sweetened milk.</p></div></article>
+<article class="menu-card reveal" data-category="desserts"><div class="dish-img"><img alt="GulabJamun" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_900%2Ch_900%2Cc_fit/FOOD_CATALOG/IMAGES/CMS/2025/7/25/0e80b187-03b4-4e42-8037-02dfedf0f1f1_4d2c1c80-f646-4e5e-847d-5cf12b8e527c.jpg"/></div><div class="dish-body"><div class="category-label">desserts</div><div class="menu-meta"><h3>GulabJamun</h3><span class="price">₹85</span></div><p>Gulab jamun, per piece.</p></div></article>
+<article class="menu-card reveal" data-category="desserts"><div class="dish-img"><img alt="Crushed Pineapple Ice-Cream" data-menu-image="1" decoding="async" loading="eager" referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1590080962330-747c6aba8028?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=88&amp;w=1200"/></div><div class="dish-body"><div class="category-label">desserts</div><div class="menu-meta"><h3>Crushed Pineapple Ice-Cream</h3><span class="price">₹190</span></div><p>Pineapple and ice cream dessert.</p></div></article>
+</div></section></section><section aria-label="Story view" class="view view-story" data-view="story" id="story"><section class="page-hero"><div class="container reveal"><div class="eyebrow">Since 1994</div><h1>A Tradition<br/>That Grew<br/>With Patna.</h1><p>Bansi Vihar's published history places the restaurant in Patna since 1994, with a focus on South Indian and Chinese vegetarian cuisine.</p></div></section><section class="section"><div class="container legacy reveal"><div class="legacy-copy"><div class="eyebrow">The Beginning · 1994</div><h2>A Taste That<br/>Became a Tradition.</h2><p>Bansi Vihar describes itself as a culinary landmark in Patna, serving South Indian and Chinese cuisine since 1994. We keep the story factual: the cuisine, the place and the continuity are what define the brand.</p></div><img alt="Dosa platter served with South Indian accompaniments" loading="lazy" src="https://bansivihar.com/assets/img/slide/slide-1.jpg" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:24px"/></div></section><section class="section dark"><div class="container story-inner reveal"><div class="story-year">1994</div><div class="story-copy"><div class="eyebrow">Then → Now</div><h2>Growing with Patna.</h2><p>From familiar dosa, idli, vada and uttapam to Chinese vegetarian favourites, the menu reflects a broad, long-running dining tradition in the heart of Patna.</p><div class="story-steps"><div class="story-step"><b>01</b><span>The Beginning</span></div><div class="story-step"><b>02</b><span>Growing With Patna</span></div><div class="story-step"><b>03</b><span>Today</span></div></div></div></div></section><section class="section paper"><div class="container legacy reveal"><div><div class="eyebrow">The Cuisine</div><h2 class="serif" style="font-size:clamp(3rem,6vw,5.5rem);line-height:.9;font-weight:500;margin:12px 0 22px">Familiar flavours.<br/>Enduring favourites.</h2><p style="color:rgba(32,35,31,.65);max-width:600px">The restaurant's official menu highlights South Indian staples including dosas, idli, vada and uttapam, alongside Chinese dishes, snacks, beverages and desserts.</p><a class="btn" data-route="menu" href="#menu" style="margin-top:24px">Explore the Menu →</a></div><img alt="Butter Onion Masala Dosa" loading="lazy" src="https://bansivihar.com/assets/img/ButterOnionMasalaDosa.jpg" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px"/></div></section></section><section aria-label="Gallery view" class="view view-gallery" data-view="gallery" id="gallery"><section class="page-hero"><div class="container reveal"><div class="eyebrow">Food · Ambience · Moments</div><h1>A GLIMPSE<br/>OF THE TABLE.</h1><p>Officially published restaurant imagery is used where available. The gallery keeps food, place and moments visually distinct.</p></div></section><section class="section"><div class="container"><div class="filter-inner gallery-filter" style="margin-bottom:30px" role="tablist" aria-label="Gallery categories"><button class="chip active" data-filter="all" role="tab" aria-selected="true">All</button><button class="chip" data-filter="food" role="tab" aria-selected="false">Food</button><button class="chip" data-filter="ambience" role="tab" aria-selected="false">Ambience</button><button class="chip" data-filter="moments" role="tab" aria-selected="false">Moments</button></div><div class="gallery-grid gallery-editorial"><div class="gallery-item gallery-feature reveal" data-alt="Bansi Vihar Restaurant exterior" data-category="ambience" data-lightbox="assets/bansi-vihar-restaurant-exterior.jpg"><img alt="Bansi Vihar Restaurant exterior at dusk" loading="eager" src="assets/bansi-vihar-restaurant-exterior.jpg"/><span class="gallery-caption">Ambience · Bansi Vihar Exterior</span></div><div class="gallery-item reveal" data-alt="Special Masala Dosa" data-category="food" data-lightbox="https://bansivihar.com/assets/img/SpecialMasalaDosa.jpg"><img alt="Special Masala Dosa" loading="lazy" src="https://bansivihar.com/assets/img/SpecialMasalaDosa.jpg"/><span class="gallery-caption">Food · Special Masala Dosa</span></div><div class="gallery-item reveal" data-alt="Butter Onion Masala Dosa" data-category="food" data-lightbox="https://bansivihar.com/assets/img/ButterOnionMasalaDosa.jpg"><img alt="Butter Onion Masala Dosa" loading="lazy" src="https://bansivihar.com/assets/img/ButterOnionMasalaDosa.jpg"/><span class="gallery-caption">Food · Butter Onion Masala</span></div><div class="gallery-item reveal" data-alt="Onion Masala Dosa" data-category="food" data-lightbox="https://bansivihar.com/assets/img/OnionMasalaDosa.jpg"><img alt="Onion Masala Dosa" loading="lazy" src="https://bansivihar.com/assets/img/OnionMasalaDosa.jpg"/><span class="gallery-caption">Food · Onion Masala</span></div><div class="gallery-item reveal" data-alt="Paneer Masala Dosa" data-category="food" data-lightbox="https://bansivihar.com/assets/img/PaneerMasalaDosa.jpg"><img alt="Paneer Masala Dosa" loading="lazy" src="https://bansivihar.com/assets/img/PaneerMasalaDosa.jpg"/><span class="gallery-caption">Food · Paneer Masala</span></div><div class="gallery-item reveal" data-alt="Butter Paper Masala Dosa" data-category="food" data-lightbox="https://bansivihar.com/assets/img/ButterPaperMasalaDosa.jpg"><img alt="Butter Paper Masala Dosa" loading="lazy" src="https://bansivihar.com/assets/img/ButterPaperMasalaDosa.jpg"/><span class="gallery-caption">Food · Butter Paper</span></div><div class="gallery-item reveal" data-alt="South Indian meal platter" data-category="moments" data-lightbox="https://bansivihar.com/assets/img/slide/slide-1.jpg"><img alt="South Indian meal platter" loading="lazy" src="https://bansivihar.com/assets/img/slide/slide-1.jpg"/><span class="gallery-caption">Moment · South Indian Table</span></div></div></div></section></section><section aria-label="Visit view" class="view view-visit" data-view="visit" id="visit"><section class="page-hero"><div class="container reveal"><div class="eyebrow">Fraser Road · Patna</div><h1>YOUR TABLE<br/>IS WAITING.</h1><p>Find Bansi Vihar Restaurant in Marwari Campus, Chauraha, Fraser Road, near Bank of India, Dak Bunglow.</p></div></section><section class="section paper"><div class="container visit-grid reveal"><div class="visit-card"><div class="eyebrow">Bansi Vihar Restaurant</div><h2>Come by<br/>for a classic.</h2><div class="contact-block"><div class="contact-row"><b>Address</b><span>Marwari Campus, Chauraha, Fraser Road,<br/>near Bank of India, Dak Bunglow,<br/>Patna, Bihar 800001</span></div><div class="contact-row"><b>Phone</b><a href="tel:+916122224804">0612 222 4804</a></div><div class="contact-row"><b>Hours</b><span>8:00 AM – 11:00 PM<br/>Monday–Sunday</span></div><div class="contact-row"><b>Email</b><a href="mailto:feedback@bansivihar.com">feedback@bansivihar.com</a></div></div><div class="hero-actions"><a class="btn light" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bansi+Vihar+Restaurant+Patna" rel="noopener" target="_blank">Get Directions ↗</a><a class="btn light" href="tel:+916122224804">Call Restaurant</a></div></div><div class="map-wrap"><iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.902022674764!2d85.13497411132822!3d25.60817177735467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed585d2cac90df:0xc9d0961a5dd5ebb8!2sBansi+Vihar+Restaurant!5e0!3m2!1sen!2sin!4v1722696415153!5m2!1sen!2sin" title="Bansi Vihar Restaurant location map"></iframe></div></div><div class="container faq"><div class="eyebrow">FAQ</div><h2 class="serif" style="font-size:clamp(3rem,6vw,5rem);font-weight:500;line-height:.9;margin:12px 0 30px">Good to know.</h2><div class="faq-grid"><details class="faq-item"><summary>What are your opening hours?</summary><p>Publicly listed hours are 8:00 AM to 11:00 PM, Monday through Sunday.</p></details><details class="faq-item"><summary>Is the restaurant vegetarian?</summary><p>Yes. Public restaurant listings describe Bansi Vihar as vegetarian-only, with South Indian and Chinese cuisine.</p></details><details class="faq-item"><summary>Where is Bansi Vihar located?</summary><p>Marwari Campus, Chauraha, Fraser Road, near Bank of India, Dak Bunglow, Patna, Bihar 800001.</p></details><details class="faq-item"><summary>How can I contact the restaurant?</summary><p>Call 0612 222 4804 or email feedback@bansivihar.com.</p></details></div></div></section></section></main><footer class="footer"><div class="container footer-grid"><div><div class="footer-brand">Bansi<br/>Vihar</div><p>A Taste That Became a Tradition.<br/>Patna · Since 1994</p></div><div><h4>Explore</h4><a data-route="menu" href="#menu">Menu</a><a data-route="story" href="#story">Our Story</a><a data-route="gallery" href="#gallery">Gallery</a><a data-route="visit" href="#visit">Visit Us</a></div><div><h4>Contact</h4><a href="tel:+916122224804">0612 222 4804</a><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Bansi+Vihar+Restaurant+Patna" rel="noopener" target="_blank">Directions</a><p>8:00 AM – 11:00 PM</p></div></div><div class="container footer-bottom"><span>© 2026 Bansi Vihar Restaurant</span><span>Restaurant information verified against public sources.</span></div></footer><div aria-hidden="true" aria-label="Gallery viewer" aria-modal="true" class="lightbox" role="dialog"><button aria-label="Close gallery" class="lb-close" type="button">×</button><button aria-label="Previous image" class="lb-prev" type="button">‹</button><img alt="Gallery image"/><button aria-label="Next image" class="lb-next" type="button">›</button></div><script id="bansi-vihar-app">
+(()=>{
+'use strict';
+const ROUTES=['home','menu','story','gallery','visit'];
+const body=document.body, nav=document.querySelector('.nav'), mobile=document.querySelector('.mobile-menu'), toggle=document.querySelector('.menu-toggle'), close=document.querySelector('.mobile-close');
+if('scrollRestoration' in history) history.scrollRestoration='manual';
+const views=[...document.querySelectorAll('[data-view]')];
+let menuOpen=false;
+let routeBusy=false;
+let routeTimer=0;
+const motionOK=()=>!window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function setMenu(open){
+  const next=!!open;
+  if(!mobile){menuOpen=next;return;}
+  if(next===menuOpen && !mobile.classList.contains('closing'))return;
+  clearTimeout(setMenu.timer);
+  menuOpen=next;
+  if(next){
+    mobile.classList.remove('closing');
+    mobile.classList.add('open');
+  }else if(mobile.classList.contains('open')){
+    mobile.classList.add('closing');
+    mobile.classList.remove('open');
+    setMenu.timer=setTimeout(()=>mobile.classList.remove('closing'),motionOK()?460:0);
+  }else{
+    mobile.classList.remove('closing');
+  }
+  mobile.setAttribute('aria-hidden',String(!next));
+  body.classList.toggle('menu-open',next);
+  if(toggle){toggle.setAttribute('aria-expanded',String(next));toggle.setAttribute('aria-label',next?'Close menu':'Open menu');}
+}
+function normalizeRoute(value){const r=(value||'').replace(/^#/,'').split('?')[0];return ROUTES.includes(r)?r:'home';}
+function resetRouteMotion(view){
+  view.classList.remove('route-leaving','route-entering','route-settled','route-visible');
+  void view.offsetWidth;
+  view.classList.add('route-settled','route-visible');
+}
+function animateViewEntrance(view,next){
+  view.classList.remove('route-leaving','route-settled','route-visible');
+  view.classList.add('route-entering','route-visible');
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+    view.classList.remove('route-entering');
+    view.classList.add('route-settled');
+  }));
+  if(next==='menu')animateMenuCards(view);
+  if(next==='gallery')animateGallery(view);
+}
+function animateMenuCards(view){
+  const cards=[...view.querySelectorAll('.menu-page-grid .menu-card')];
+  cards.forEach((card,i)=>{card.classList.add('menu-stagger');card.classList.remove('menu-card-in');void card.offsetWidth;card.style.animationDelay=(i*60)+'ms';card.classList.add('menu-card-in');});
+}
+function animateGallery(view){
+  const items=[...view.querySelectorAll('.gallery-item')];
+  items.forEach((item,i)=>{item.classList.add('gallery-stagger');item.classList.remove('gallery-item-in');void item.offsetWidth;item.style.animationDelay=(i*60)+'ms';item.classList.add('gallery-item-in');});
+}
+function renderRoute(route,replace=false){
+  const next=normalizeRoute(route);
+  const hash='#'+next;
+  if(replace){history.replaceState({route:next},'',hash);}else if(location.hash!==hash){history.pushState({route:next},'',hash);}
+  const current=document.querySelector('.view.active');
+  const target=views.find(v=>v.dataset.view===next);
+  if(!target)return;
+  if(current===target){
+    setMenu(false);
+    window.scrollTo({top:0,left:0,behavior:motionOK()?'smooth':'auto'});
+    revealActive();
+    document.title=({home:'Bansi Vihar Restaurant | Patna Since 1994',menu:'The Menu | Bansi Vihar Restaurant Patna',story:'Our Story | Bansi Vihar Restaurant',gallery:'Gallery | Bansi Vihar Restaurant Patna',visit:'Visit Us | Bansi Vihar Restaurant Patna'})[next];
+    return;
+  }
+  clearTimeout(routeTimer);
+  routeBusy=true;
+  views.forEach(v=>{v.hidden=false;v.classList.remove('route-visible','route-entering','route-settled','route-leaving');});
+  setMenu(false);
+  const reduce=!motionOK();
+  if(current&&!reduce){
+    current.classList.add('route-leaving');
+    routeTimer=setTimeout(()=>{
+      current.classList.remove('active','route-leaving','route-visible','route-settled');
+      current.hidden=true;
+      target.hidden=false;
+      target.classList.add('active');
+      animateViewEntrance(target,next);
+      prepareMotion(target);
+      routeTimer=setTimeout(()=>{target.classList.remove('route-settled','route-visible');routeBusy=false;},80);
+    },340);
+  }else{
+    views.forEach(v=>{v.hidden=v!==target;v.classList.remove('active','route-visible','route-entering','route-settled','route-leaving');});
+    target.classList.add('active');
+    target.hidden=false;
+    resetRouteMotion(target);
+    if(next==='menu')animateMenuCards(target);
+    if(next==='gallery')animateGallery(target);
+    prepareMotion(target);
+    routeBusy=false;
+  }
+  document.querySelectorAll('[data-route]').forEach(a=>a.classList.toggle('active',a.dataset.route===next && a.closest('.nav-links')));
+  window.scrollTo({top:0,left:0,behavior:reduce?'auto':'smooth'});
+  document.title=({home:'Bansi Vihar Restaurant | Patna Since 1994',menu:'The Menu | Bansi Vihar Restaurant Patna',story:'Our Story | Bansi Vihar Restaurant',gallery:'Gallery | Bansi Vihar Restaurant Patna',visit:'Visit Us | Bansi Vihar Restaurant Patna'})[next];
+}
+function handleRoute(){renderRoute(normalizeRoute(location.hash),true);requestAnimationFrame(()=>window.scrollTo({top:0,left:0,behavior:'auto'}));}
+document.addEventListener('click',e=>{
+  const link=e.target.closest('[data-route]');
+  if(!link)return;
+  e.preventDefault();
+  renderRoute(link.dataset.route,false);
+});
+toggle?.addEventListener('click',()=>setMenu(!menuOpen));
+close?.addEventListener('click',()=>setMenu(false));
+mobile?.addEventListener('click',e=>{if(e.target===mobile)setMenu(false);});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menuOpen)setMenu(false);});
+window.addEventListener('popstate',handleRoute);
+window.addEventListener('hashchange',handleRoute);
+window.addEventListener('scroll',()=>nav?.classList.toggle('scrolled',window.scrollY>25),{passive:true});
+
+// Premium scroll reveal system — lightweight IntersectionObserver, reveal once.
+let revealObserver=null;
+function prepareMotion(view){
+ if(!view)return;
+ const imageSelectors='.legacy img,.experience-media,.story-inner img,.gallery-item img,.visit-grid img';
+ view.querySelectorAll(imageSelectors).forEach(el=>{
+  if(el.matches('img')){el.classList.add('motion-image');el.parentElement?.classList.add('motion-image-wrap');}
+  else el.classList.add('motion-image');
+ });
+ view.querySelectorAll('.dish-card').forEach((el,i)=>{el.classList.add('motion-card');el.style.transitionDelay=(i*70)+'ms';});
+ view.querySelectorAll('.feature,.story-step,.contact-row,.faq-item').forEach((el,i)=>{el.classList.add('motion-stagger');el.style.transitionDelay=(i*55)+'ms';});
+ const targets=[...view.querySelectorAll('.reveal,.motion-image,.motion-card,.motion-stagger')];
+ if(!('IntersectionObserver' in window) || !motionOK()){
+  targets.forEach(el=>el.classList.add('visible'));
+  return;
+ }
+ if(revealObserver)revealObserver.disconnect();
+ revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
+  if(entry.isIntersecting){entry.target.classList.add('visible');revealObserver.unobserve(entry.target);}
+ }),{threshold:.18,rootMargin:'0px 0px -8% 0px'});
+ targets.forEach(el=>{if(!el.classList.contains('visible'))revealObserver.observe(el);});
+}
+function revealActive(){prepareMotion(document.querySelector('.view.active'));}
+
+// Menu/category filtering is client-side only; values are normalized before matching.
+function normalizeCategory(value){
+  return String(value||'').trim().toLowerCase().replace(/[_\s]+/g,'-');
+}
+function applyFilter(scope,button){
+  if(!scope||!button)return;
+  const filter=normalizeCategory(button.dataset.filter);
+  const buttons=[...scope.querySelectorAll('.filter-inner [data-filter]')];
+  buttons.forEach(x=>x.classList.toggle('active',x===button));
+
+  clearTimeout(scope._filterHideTimer);
+  const grid=scope.querySelector('.menu-page-grid');
+  const cards=[...scope.querySelectorAll('.menu-page-grid .menu-card[data-category]')];
+  const matches=cards.filter(card=>normalizeCategory(card.dataset.category)===filter);
+  grid?.querySelector('.menu-filter-empty')?.remove();
+
+  cards.forEach(card=>{
+    card.classList.remove('filter-in','filter-out');
+    card.style.animationDelay='0ms';
+    const match=normalizeCategory(card.dataset.category)===filter;
+    if(!match){
+      card.classList.add('filter-out');
+    }else{
+      card.hidden=false;
+      card.classList.remove('hide');
+      void card.offsetWidth;
+      card.style.animationDelay=(Math.min(matches.indexOf(card),7)*55)+'ms';
+      card.classList.add('filter-in');
+    }
+  });
+  if(!matches.length){
+    cards.forEach(card=>{card.hidden=true;card.classList.add('hide');});
+  }else{
+    scope._filterHideTimer=setTimeout(()=>cards.forEach(card=>{
+      if(normalizeCategory(card.dataset.category)!==filter){card.hidden=true;card.classList.add('hide');}
+    }),320);
+  }
+
+  if(!matches.length && grid){
+    const empty=document.createElement('div');
+    empty.className='menu-filter-empty';
+    empty.innerHTML='<strong>No Thali items listed</strong><span>This category is not present in the current Bansi Vihar menu data.</span>';
+    grid.appendChild(empty);
+  }
+}
+function initFilters(){
+  const menu=document.querySelector('.view-menu');
+  menu?.querySelectorAll('.filter-inner [data-filter]').forEach(button=>{
+    button.addEventListener('click',()=>applyFilter(menu,button));
+  });
+  const initial=menu?.querySelector('.filter-inner [data-filter="south-indian"]');
+  if(menu&&initial)applyFilter(menu,initial);
+
+  // Gallery filtering remains client-side and independent from the menu filter.
+  document.querySelectorAll('.view-gallery .filter-inner [data-filter]').forEach(button=>{
+    button.addEventListener('click',()=>{
+      const scope=button.closest('.view-gallery');
+      if(!scope)return;
+      const filter=normalizeCategory(button.dataset.filter||'all');
+      scope.querySelectorAll('.filter-inner [data-filter]').forEach(x=>{x.classList.toggle('active',x===button);x.setAttribute('aria-selected',String(x===button));});
+      scope.querySelectorAll('.gallery-item[data-category]').forEach((item,i)=>{
+        const match=filter==='all'||normalizeCategory(item.dataset.category)===filter;
+        item.classList.remove('gallery-filter-in');
+        if(match){
+          item.classList.remove('hide');
+          void item.offsetWidth;
+          item.style.animationDelay=(Math.min(i,7)*45)+'ms';
+          item.classList.add('gallery-filter-in');
+        }else{
+          item.classList.add('hide');
+        }
+      });
+    });
+  });
+}
+
+// Single global gallery lightbox, including images from all views.
+const lb=document.querySelector('.lightbox'), lbImg=lb?.querySelector('img');
+const galleryItems=[...document.querySelectorAll('[data-lightbox]')]; let current=0;
+function openLb(i){const item=galleryItems[i];if(!item||!lb||!lbImg)return;current=i;lbImg.src=item.dataset.lightbox;lbImg.alt=item.dataset.alt||'Bansi Vihar gallery image';lb.classList.add('open');lb.setAttribute('aria-hidden','false');body.classList.add('menu-open');}
+function closeLb(){lb?.classList.remove('open');lb?.setAttribute('aria-hidden','true');body.classList.remove('menu-open');}
+function moveLb(dir){if(galleryItems.length)openLb((current+dir+galleryItems.length)%galleryItems.length);}
+galleryItems.forEach((item,i)=>item.addEventListener('click',()=>openLb(i)));
+lb?.querySelector('.lb-close')?.addEventListener('click',closeLb);lb?.querySelector('.lb-prev')?.addEventListener('click',()=>moveLb(-1));lb?.querySelector('.lb-next')?.addEventListener('click',()=>moveLb(1));lb?.addEventListener('click',e=>{if(e.target===lb)closeLb();});
+let touchX=0;lb?.addEventListener('touchstart',e=>{touchX=e.changedTouches[0].clientX},{passive:true});lb?.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-touchX;if(Math.abs(dx)>50)moveLb(dx<0?1:-1)},{passive:true});
+document.addEventListener('keydown',e=>{if(!lb?.classList.contains('open'))return;if(e.key==='Escape')closeLb();if(e.key==='ArrowLeft')moveLb(-1);if(e.key==='ArrowRight')moveLb(1);});
+
+// Every remote image fails safely to the premium food fallback; navigation remains unaffected.
+const EMBEDDED_FOOD_FALLBACK='assets/hero-dosa-premium.png';
+document.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{if(img.dataset.fallback==='1')return;img.dataset.fallback='1';img.removeAttribute('loading');img.src=img.dataset.menuImage==='1'?EMBEDDED_FOOD_FALLBACK:'assets/placeholder.svg';},{once:false}));
+
+initFilters();
+const initialMenu=document.querySelector('.view-menu');
+const initialSouth=initialMenu?.querySelector('.filterbar [data-filter="south-indian"]');
+if(initialMenu&&initialSouth){applyFilter(initialMenu,initialSouth);}
+body.classList.add('route-ready');
+if(motionOK()){
+ body.classList.add('intro-active');
+ setTimeout(()=>{body.classList.remove('intro-active');document.querySelector('.intro-screen')?.remove();},1600);
+}else{
+ document.querySelector('.intro-screen')?.remove();
+}
+renderRoute(normalizeRoute(location.hash),true);
+setTimeout(revealActive,0);
+})();
+</script><div class="floating-contact-actions" aria-label="Contact Bansi Vihar">
+<a class="floating-contact whatsapp" href="https://wa.me/916122224804?text=Hello%20Bansi%20Vihar%2C%20I%20would%20like%20to%20know%20more%20about%20your%20menu." target="_blank" rel="noopener" aria-label="Chat with Bansi Vihar on WhatsApp" title="Chat with us"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.52 3.48A11.83 11.83 0 0 0 12.08 0C5.54 0 .22 5.32.22 11.86c0 2.09.55 4.13 1.6 5.93L.12 24l6.35-1.66a11.83 11.83 0 0 0 5.61 1.42h.01c6.54 0 11.86-5.32 11.86-11.86 0-3.17-1.23-6.14-3.43-8.42ZM12.09 21.73h-.01a9.83 9.83 0 0 1-5.01-1.37l-.36-.21-3.77.99 1.01-3.67-.23-.38a9.84 9.84 0 0 1-1.51-5.23C2.44 6.43 6.87 2 12.32 2a9.82 9.82 0 0 1 6.99 2.9 9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.43 9.84-9.88 9.84Zm5.41-7.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></svg><span>WhatsApp</span></a>
+<a class="floating-contact call" href="tel:+916122224804" aria-label="Call Bansi Vihar" title="Call Bansi Vihar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.46 15.46 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.06 21 3 13.94 3 5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z"/></svg><span>Call</span></a>
+</div>
+</body></html>
